@@ -60,4 +60,4 @@ Ao fim do tempo definido, o arquivo será salvo no formato .wav
 
 > 2 - Após isso, se CERTIFICAR que o Monitor Serial esteja fechado, pois ele utiliza a porta COM9 para imprimir os dados e a porta precisa estar livre para que a conexão com o script Python, que usará a porta seral, aconteça sem erros.
 
-> 3 - Enfim, ao rodar o script Python, ele irá se conectar com a porta COM9 e irá ler os dados enviados pela placa XIAO no intervalo definido em DURACAO, convertendo então os dados binários em um arquivo .wav no local destinado pelo usuário.
+> 3 - Enfim, ao rodar o script Python, ele irá se conectar com a porta COM9 e irá ler os dados enviados pela placa XIAO no intervalo definido em DURATION, convertendo então os dados binários em um arquivo .wav no local destinado pelo usuário.
